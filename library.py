@@ -33,15 +33,15 @@ def issue_book():
         print("Book is not available.")
 
 # Return book
-def return_book():
-    name = input("Enter book name to return: ")
+# def return_book():
+#     name = input("Enter book name to return: ")
 
-    if name in issued_books:
-        issued_books.remove(name)
-        books.append(name)
-        print(name,"Book returned.")
-    else:
-        print(name," was not issued.")
+#     if name in issued_books:
+#         issued_books.remove(name)
+#         books.append(name)
+#         print(name,"Book returned.")
+#     else:
+#         print(name," was not issued.")
 
 # Main menu
 def library():
